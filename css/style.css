@@ -1,0 +1,139 @@
+html, body{
+  
+}
+
+h1{
+  color: black;
+  font-family: "Titillium Web";
+  text-align: center; 
+  font-weight: 680;
+}
+
+h2{
+  color: black;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+
+h3{
+  color: black;
+  font-family: "Titillium Web";
+  text-align: center;
+  font-size: 24px;
+  font-weight: 580;
+}
+
+h4{
+  color: red;
+  font-family: "Titillium Web";
+  text-align: center;
+  font-size: 24px;
+  font-weight: 580;
+}
+
+h5{
+  color: blue;
+  font-family: "Titillium Web";
+  text-align: center;
+  font-size: 24px;
+  font-weight: 580;
+}
+
+h6{
+  color: white;
+  font-family: "Titillium Web";
+  text-align: center;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+h7{
+  color: white;
+  font-family: "Titillium Web";
+  text-align: left;
+  font-size: 19px;
+}
+
+
+
+.gapTop{
+  margin-top: 0.5%;
+}
+
+.gapTop2{
+  margin-top: 9%;
+}
+
+.redUp{
+  color: red;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+
+.blueUp{
+  color: blue;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+
+a{
+  color: black;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+
+.div1,.div2,.div3 {
+    display: inline-block;
+  }
+
+.center-horizontal {
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.btn-lg.round {
+	border-radius: 24px;
+}
+
+.case {
+  background-color:black;
+  opacity:0.7;
+  width:27%;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:auto;
+  margin-top:1.5%;
+  border-radius:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
