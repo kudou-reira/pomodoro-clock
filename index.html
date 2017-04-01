@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>pomodoro clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+<div>
+  <h1 class=>Pomodoro Clock</h1>
+  <div class="timeDivisions text-center">
+    <h3 id="title1" class="gapTop">Choose your Time Schedule (in minutes) :D</h3>
+
+
+    <div class="center-horizontal gapTop">
+      <div class="div1">
+        <h4 id = "sessionTitle">Session Time</h4>
+        <h2 id="timeOn"></h2>
+        <a href="#" class="btn btn-danger btn-lg" id="add25time">+</a>
+        <h2 id="sessionNumber25" class = "redUp">25</h2>
+        
+        <a href="#" class="btn btn-danger btn-lg" id="minus25time">-</a>
+
+      </div>
+
+      <div class="div2">
+        <a href="#" class="btn btn-primary btn-lg" id="reset">Reset</a>
+
+      </div>
+
+      <div class="div3">
+        <h5 id = "breakTitle">Break Time</h5>
+        <a href="#" class="btn btn-primary btn-lg" id="add5time">+</a>
+        <h2 id="breakNum5" class = "blueUp">5</h2>
+        <a href="#" class="btn btn-primary btn-lg" id="minus5time">-</a>
+
+      </div>
+
+
+    </div>
+
+    <a href="#" class="btn btn-danger btn-lg gapTop2" id = "start">Start</a>
+    <div class="container-fluid" id = "back4">
+      <div class = "case gapTop2" id = "back3">
+        <h6 id = "back1">What is a Pomodoro Clock?</h6>
+        <h7 id = "back2">A pomodoro clock is a clock invented by Francesco Cirillo in the late 1908s. It is a special type of time managment system in which a timer is used to separate work and break time. Normally, for every 25 minutes of work, 5 minutes of break time are awarded. This method of timeboxing is applied in such a way in order to increase productivity. Usually, after 25 minutes of work, the mind will be "tricked" into working further, thus enhancing productivity. I've created this clock in such a way that your work time and break time can be more flexible. Please try it out!</h7>
+      </div>
+      
+      
+    </div>
+    
+
+  </div>
+
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
